@@ -1,6 +1,6 @@
 # Termtter tutorials
 
-1. [Install a termtter](step1.html)
+1. [Install Termtter](step1.html)
 2. [Configure](step2.html)
 3. [Basic usage](step3.html)
 4. [Some plugins](step4.html)

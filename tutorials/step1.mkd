@@ -1,6 +1,6 @@
 # Step1: Install
 
-Install is needed to use termtter.
+Install is needed to use Termtter.
 
 ## Requirements
 
@@ -50,19 +50,19 @@ dev version can use new features and new plugins.
 
 * git
 
-#### Get termtter from github
+#### Get Termtter from github
 
 Run following command:
 
     git clone git://github.com/jugyo/termtter /where/to/install
 
-To get a termtter.
+To get Termtter.
 
 Then, Add a installed directory to your shell's $PATH
 
 ##### How to update
 
-Run following command at termtter directory:
+Run following command at the Termtter's directory:
 
     git pull
 
