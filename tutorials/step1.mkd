@@ -15,37 +15,36 @@ Install is needed to use termtter.
 
 ## How to install
 
-Termtter have multiple ways to install.
+Termtter has multiple ways to install.
 
 ### Use stable version
 
-Stable version is very stable,
- but bugs and new features is not available quickly.
+Stable version is very stable, but bugfixes and new features are not available
+quickly.
 
-So we recommand unstable version (dev version).
+So we recommend the unstable version (dev version).
 
 #### From archive from github
 
-Stable archive can download from here:
+You can download the arhcives of stable version here:
 
 [http://github.com/jugyo/termtter/downloads](http://github.com/jugyo/termtter/downloads)
 
-And expand anywhere.
+And expand it anywhere.
 
-Then, Add a installed path to your shell's $PATH.
+Then, add a installed path to your shell's $PATH.
 
 #### From RubyGem
 
-Run following command to install requirements libraries and termtter:
+Run the following command to install Termtter and its dependent libraries:
 
     gem install termtter
 
 
 ### Use unstable (dev) version
 
-Termtter cannot boots or raises error
- if anybody pushed problem commit,
- but dev version can use new features and new plugins.
+Termtter cannot boot or raise errors.  if anybody pushed problem commit, but
+dev version can use new features and new plugins.
 
 #### Additional requirements
 
