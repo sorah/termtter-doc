@@ -76,4 +76,4 @@ If you don't want that, write
 
 And you done config, let's use termtter at next step!
 
-[戻る](step2.ja.html) | [次へ](step3.ja.html)
+[Back](step2.ja.html) | [Next](step3.ja.html)
