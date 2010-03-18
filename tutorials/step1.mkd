@@ -19,8 +19,10 @@ Termtter have multiple ways to install.
 
 ### Use stable version
 
-安定版は比較的安定していますが、迅速にアップデートされないので,
-バグがすぐに修正されない場合が多く非推奨です。
+Stable version is very stable,
+ but bugs and new features is not available quickly.
+
+So we recommand unstable version (dev version).
 
 #### From archive from github
 
@@ -30,7 +32,7 @@ Stable archive can download from here:
 
 And expand anywhere.
 
-Then, Add a installed path to $PATH in your shell.
+Then, Add a installed path to your shell's $PATH.
 
 #### From RubyGem
 
@@ -48,26 +50,27 @@ Termtter cannot boots or raises error
 
 * git
 
-#### githubからtermtterを取得する
+#### Get termtter from github
 
-    git clone git://github.com/jugyo/termtter インストール先
+Run following command:
 
-で取得することができます。
+    git clone git://github.com/jugyo/termtter /where/to/install
 
-後、PATHを通し完了です 
-(PATHの通し方は後述)
+To get a termtter.
 
-##### 更新を行う
+Then, Add a installed directory to your shell's $PATH
 
-Termtterのディレクトリで
+##### How to update
+
+Run following command at termtter directory:
 
     git pull
 
-を実行することで更新が可能です。
+<!--
+__TODO: translate this__
 
 ## PATHを通す
 
-<!-- TODO: Screen shot -->
 ##### Windows (XP以降)
 
 1. システムのコントロールパネルを開く
@@ -87,7 +90,9 @@ Termtterのディレクトリで
 * 一番上の行に"Termtterへのパス/bin"を入力し保存、終了
 * シェルを再起動
 
+-->
 
-インストールが完了したら、次はセットアップしましょう。
+Install was done, go to next step to setup.
 
 [次へ](step2.ja.mkd)
+
