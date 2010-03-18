@@ -1,0 +1,76 @@
+# Step2: 初期設定
+
+Termtterを使い始めるために初期設定を行います
+
+## 初回起動
+
+起動時に`~/.termtter`ディレクトリが存在しなければ,自動で雛形のconfigファイルが生成されます。
+
+生成するときにユーザー名を問われます。
+
+    % termtter
+    your twitter user name: termtter(例)
+    generated: ~/.termtter/config
+
+## ~/.termtter/config ファイル
+
+`~/.termtter/config` ファイルがtermtterの主要な設定ファイルです。
+
+__HINT:__ configファイルはRubyスクリプトなのでRubyの構文がそのまま使用可能です
+
+生成されたconfigファイルはこんな感じです:
+
+    # -*- coding: utf-8 -*-
+
+    config.user_name = 'あなたのユーザー名'
+    #config.update_interval = 120
+    #config.timeout = 5
+    #config.retry = 3
+    #config.enable_ssl = true
+    #config.proxy.host = 'proxy host'
+    #config.proxy.port = '8080'
+    #config.proxy.user_name = 'proxy user'
+    #config.proxy.password = 'proxy password'
+
+    config.plugins.keyword.keywords = ["@あなたのユーザー名"]
+    config.confirm = true
+    #config.plugins.stdout.colors = (31..36).to_a + (91..96).to_a
+
+    Termtter::Client.init do |t|
+      # t.plug 'aaa'
+      # t.plug 'bbb'
+      # t.plug 'ccc'
+      # t.plug 'ddd'
+      ...
+      # t.plug 'xxx'
+    end
+
+最後の`t.plug`部分はconfigファイルが生成された当時に存在するpluginをリストにしたものです。
+コメントアウトすることでpluginが有効になります。(Step4を参照)
+
+### configの説明
+
+初期configで書かれているconfigにコメントをつけるとこんな感じです
+
+    config.user_name = 'あなたのユーザー名' # ユーザー名
+    #config.update_interval = 120 # TL更新間隔
+    #config.timeout = 5 # APIタイムアウト。標準ではコメントアウトされていて指定する必要はない
+    #config.retry = 3 # タイムアウト時のリトライ回数
+    #config.enable_ssl = true # SSLを使用するか。
+    #config.proxy.host = 'proxy host' # HTTPプロキシを使用する場合コメントアウトしてホスト名を入力
+    #config.proxy.port = '8080' # プロキシポート
+    #config.proxy.user_name = 'proxy user' # プロキシ認証が必要な場合コメントアウトしユーザー名を指定
+    #config.proxy.password = 'proxy password' # プロキシパスワード
+
+    config.plugins.keyword.keywords = ["@あなたのユーザー名"] # TLでハイライトするキーワード
+    config.confirm = true # updateする内容を確認するか。ある程度なれてきたらfalseにしてよい。
+    #config.plugins.stdout.colors = (31..36).to_a + (91..96).to_a # TLの色づけで使用する色コード(Array/Range)
+
+### パスワードを問われないようにする
+
+標準ではパスワードを起動時に確認されます。
+自己責任でconfigに書き込むことで省略することが可能です。
+
+設定が終わったら、早速Termtterを使用してみましょう
+
+[戻る](step2.ja.html) | [次へ](step3.ja.html)
