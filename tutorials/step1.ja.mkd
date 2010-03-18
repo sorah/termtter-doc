@@ -1,0 +1,94 @@
+# Step1: インストール
+
+Termtterを使い始めるにはインストールが必要です。
+
+## 必要環境
+
+* Ruby (1.8.7以降推奨)
+* Rubygems
+* Ruby用ライブラリ(すべてRubyGemsでインストールが可能です)
+    * json 1.1.3+
+    * highline 1.5.0+
+    * termcolor 1.0.0+
+    * rubytter 0.11.0+
+    * notify 0.2.1+
+
+## Termtterのインストール
+
+Termtterにはインストール方法が複数あります。
+
+### 安定版を使用する
+
+安定版は比較的安定していますが、迅速にアップデートされないので,
+バグがすぐに修正されない場合が多く非推奨です。
+
+#### githubからtar/zipでインストール
+
+githubのダウンロードページからアーカイブをダウンロードすることができます
+
+[http://github.com/jugyo/termtter/downloads](http://github.com/jugyo/termtter/downloads)
+
+から最新安定版をダウンロードし,好きな場所に展開してください。
+
+その後、PATHを通しシェルからtermtterコマンドで起動可能にします。
+
+(PATHの通し方は後述)
+
+#### RubyGemsを使用する
+
+    gem install termtter
+
+を実行してインストールすることが可能です。
+
+### 開発版を使用する
+
+問題がある更新があるとtermtterが起動しなくなったりするという問題がありますが、
+常に新しいプラグインや機能を使うことが可能です。
+
+#### 必要なソフトウェア
+
+* git
+
+#### githubからtermtterを取得する
+
+    git clone git://github.com/jugyo/termtter インストール先
+
+で取得することができます。
+
+後、PATHを通し完了です 
+(PATHの通し方は後述)
+
+##### 更新を行う
+
+Termtterのディレクトリで
+
+    git pull
+
+を実行することで更新が可能です。
+
+## PATHを通す
+
+<!-- TODO: Screen shot -->
+##### Windows (XP以降)
+
+1. システムのコントロールパネルを開く
+2. 詳細設定タブの環境変数を開く
+3. ユーザー環境変数にPATHがなければ「作成」を開き、名前に"PATH",値に"Termtterへのパス/bin"を書いてOKを押す
+4. あればPATHをクリックし「編集」を開き、項目の最初に"Termtterへのパス/bin:"を書いてOKを押す
+
+##### Linux
+
+使用中のシェルによって異なります。Googleなどで検索してください。
+
+##### Mac OS X
+
+シェルに共通して、/etc/pathsファイルに書き込むことで反映できます
+
+* `sudo vim /etc/paths`など(vimの代わりにnanoなどを使用可能です)をシェルに入力し、パスワードを求められたら入力する
+* 一番上の行に"Termtterへのパス/bin"を入力し保存、終了
+* シェルを再起動
+
+
+インストールが完了したら、次はセットアップしましょう。
+
+[次へ](step2.ja.mkd)

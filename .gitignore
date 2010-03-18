@@ -1,0 +1,4 @@
+html/
+*.html
+.bup_config.yml
+.easy-doc_checksums

@@ -1,0 +1,13 @@
+# Termtterチュートリアル
+
+1. [インストール](step1.ja.mkd)
+2. [初期設定](step2.ja.mkd)
+3. [基本の使い方](step3.ja.mkd)
+4. [プラグインの使用](step4.ja.mkd)
+5. [プラグインを書く](step5.ja.mkd)
+6. [プラグインを投稿する](step6.ja.mkd)
+7. [ソースコードを読む](step7.ja.mkd)
+8. [コア部分のバグを修正したり機能を追加する](step8.ja.mkd)
+9. [開発リポジトリにPull requestを送信する](step9.ja.mkd)
+10. [コミッター(Termtterユーザー)になる](step10.ja.mkd)
+

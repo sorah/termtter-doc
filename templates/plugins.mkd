@@ -1,0 +1,19 @@
+# plugin {Plugin name}
+
+## Usage
+
+    plug '{plugin name}'
+
+## Description
+
+piyo-piyo
+
+## Settings
+
+* config.plugins.foo.bar
+    * foobar
+
+## Author (Mainteiner)
+
+* Author1
+* Mainteiner1

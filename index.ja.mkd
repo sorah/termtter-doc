@@ -1,0 +1,10 @@
+# termtter ドキュメント
+
+このドキュメントはすごく少ないtermtterのドキュメントを充実させるために作られた新しいドキュメントです
+
+## List
+
+* [Plugins](/plugins/index.ja.html)
+* [Termtter Basic](/termtter/index.ja.html)
+* [Termtter Tutorial](/tutorials/index.ja.html)
+

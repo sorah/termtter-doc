@@ -1,0 +1,28 @@
+# Termtter document complete project
+
+This repository is for termtter document complete project.
+
+## For document users (readers)
+
+We'll deploys termtter.org soon.
+
+Please wait for some pages complete.
+
+## For writers
+
+Documents write by markdown.
+
+And rendering by [easy-doc](http://github.com/sorah/easy-doc).
+
+### How to render
+
+    easy-doc . ./html
+
+## Directorys
+
+    templates/ -- document templates for writers
+    plugins/   -- document for plugins
+    termtter/  -- document for termtter
+    tutorials/ -- termtter tutorials
+
+
