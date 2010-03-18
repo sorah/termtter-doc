@@ -95,5 +95,5 @@ __TODO: translate this__
 
 Install was done, go to next step to setup.
 
-[次へ](step2.ja.mkd)
+[次へ](step2.ja.html)
 
