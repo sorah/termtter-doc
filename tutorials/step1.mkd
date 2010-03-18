@@ -36,9 +36,10 @@ Then, Add a installed path to your shell's $PATH.
 
 #### From RubyGem
 
+Run following command to install requirements libraries and termtter:
+
     gem install termtter
 
-を実行してインストールすることが可能です。
 
 ### Use unstable (dev) version
 
