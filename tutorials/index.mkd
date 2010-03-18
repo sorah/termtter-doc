@@ -1,13 +1,13 @@
 # Termtter tutorials
 
-1. [Install a termtter](step1.mkd)
-2. [Configure](step2.mkd)
-3. [Basic usage](step3.mkd)
-4. [Some plugins](step4.mkd)
-5. [Write a plugin](step5.mkd)
-6. [Post a plugin](step6.mkd)
-7. [Read source codes](step7.mkd)
-8. [Fix bug or add new feature to core](step8.mkd)
-9. [Send pull request to master repository](step9.mkd)
-10. [To be a committer (Termtter user)...](step10.mkd)
+1. [Install a termtter](step1.html)
+2. [Configure](step2.html)
+3. [Basic usage](step3.html)
+4. [Some plugins](step4.html)
+5. [Write a plugin](step5.html)
+6. [Post a plugin](step6.html)
+7. [Read source codes](step7.html)
+8. [Fix bug or add new feature to core](step8.html)
+9. [Send pull request to master repository](step9.html)
+10. [To be a committer (Termtter user)...](step10.html)
 
