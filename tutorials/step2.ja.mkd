@@ -14,7 +14,7 @@ Termtterを使い始めるために初期設定を行います
 
 ## ~/.termtter/config ファイル
 
-`~/.termtter/config` ファイルがtermtterの主要な設定ファイルです。
+`~/.termtter/config` ファイルがTermtterの主要な設定ファイルです。
 
 __HINT:__ configファイルはRubyスクリプトなのでRubyの構文がそのまま使用可能です
 
@@ -46,6 +46,7 @@ __HINT:__ configファイルはRubyスクリプトなのでRubyの構文がそ�
     end
 
 最後の`t.plug`部分はconfigファイルが生成された当時に存在するpluginをリストにしたものです。
+
 コメントアウトすることでpluginが有効になります。(Step4を参照)
 
 ### configの説明
@@ -69,6 +70,7 @@ __HINT:__ configファイルはRubyスクリプトなのでRubyの構文がそ�
 ### パスワードを問われないようにする
 
 標準ではパスワードを起動時に確認されます。
+
 自己責任でconfigに書き込むことで省略することが可能です。
 
 設定が終わったら、早速Termtterを使用してみましょう
